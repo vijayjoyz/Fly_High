@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Booking</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+        <ion-card-title>Book a Flight Ticket</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+          <ion-item>
+              <ion-searchbar animated=true placeholder="Search for Flights"></ion-searchbar>
+              <ion-label position="floating"></ion-label>
+              <ion-input placeholder="From" type="text">From</ion-input>
+              <ion-input placeholder="To" type="text">To</ion-input>
+              <ion-input placeholder="Depart" type="date">Depart Date</ion-input>
+              <ion-input placeholder="Return" type="date">Return Date</ion-input>
+              <ion-input placeholder="Class" type="text">To</ion-input>
+              <ion-list>
+                  <ion-item>
+                    <ion-label>Class</ion-label>
+                    <ion-select>
+                      <ion-select-option value="Business">Business Class</ion-select-option>
+                      <ion-select-option value="FirstC">First Class</ion-select-option>
+                      <ion-select-option value="Economy">Economy</ion-select-option>
+                    </ion-select>
+                  </ion-item>
+              </ion-list>
+            </ion-item>
+            <ion-button color="dark" href="/flight-details">Get Flights</ion-button>
+            <ion-button color="dark" href="/bookedflights">Booked Flights</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>

@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Transaction</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-app>
+        <ion-header translucent>
+          <ion-toolbar>
+            <ion-title>Flight Details</ion-title>
+          </ion-toolbar>
+        </ion-header>,
+        <ion-content fullscreen>
+          <ion-card>
+            <img src="./assets/shapes.svg" />
+            <ion-card-header>
+              <ion-card-subtitle>Destination</ion-card-subtitle>
+              <ion-card-title>MAA-BLR</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+                Flight:Airbus
+                Time:20:35-21:35
+                Price:5249
+                <ion-icon name="cash"></ion-icon>
+                <ion-button slot="primary" color="green" href="/transaction">Netbanking via Stripe gateway</ion-button>
+                <ion-icon name="card"></ion-icon>
+                <ion-button slot="primary" color="green" href="/transaction">Pay via Gpay</ion-button>
+            </ion-card-content>
+          </ion-card>
+        </ion-content>
+      </ion-app>
+
+      <ion-card>
+        <ion-card-content>
+          <ion-header>
+            Redeem Codes and Offer
+          </ion-header>
+        </ion-card-content>
+        Share an invite and ask a friend to sign-up and get Rs:50
+        </ion-card-content>
+      </ion-card>
+
+    </ion-content>
